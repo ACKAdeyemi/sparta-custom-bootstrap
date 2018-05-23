@@ -1,0 +1,44 @@
+.header {
+  margin: 20px 0;
+}
+
+.form {
+  margin: 10px 20px;
+}
+
+.form-labels {
+  text-align: left;
+}
+
+.form-inputs {
+  text-align: right;
+}
+
+.form-labels label {
+  margin-top: 7px;
+  margin-bottom: 40px;
+}
+
+.form-inputs input {
+  width: 100%;
+  margin-bottom: 40px;
+
+  padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.message-textbox {
+  resize:both;
+}
+
+.form-buttons input {
+  padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 15px;
+}

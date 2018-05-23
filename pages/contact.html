@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Easy Cook Meals Website for people">
     <meta name="author" content="Isabel and Chris">
-    <title>Easy Cook Meals</title>
+    <title>Contact</title>
 
     <!-- ICON FOR THE TAB WINDOW -->
     <link rel="icon" type="image/png"  href="../images/site-favicon.png">
@@ -19,6 +19,7 @@
     <!-- OTHER CSS - ALWAYS BELOW BOOTSTRAP-->
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
   </head>
 
   <body>
@@ -43,32 +44,58 @@
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
 
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <header class="header">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Looking for a way to get in touch with us?</h3>
+            <p>Feel free to fill out the form below and we'll get in touch with you as soon as possible!</p>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </header>
+
+      <div class="form">
+        <div class="">
+          <form class="row" action="index.html" method="post">
+            <legend>Contact Form</legend>
+            <div class="">
+              <div class="row">
+                <div class="form-labels col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                  <label>Full Name</label>
+                </div>
+                <div class="form-inputs col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                  <input type="text" placeholder="Full Name">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-labels col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                  <label>Email</label>
+                </div>
+                <div class="form-inputs col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                  <input type="email" placeholder="example@example.com">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-labels col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                  <label>Message</label>
+                </div>
+                <div class="form-inputs col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                  <input class="message-textbox" type="textarea" placeholder="Hi there...">
+                </div>
+              </div>
+
+              <div class="form-buttons row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <input type="submit" onclick="alert('Form Submitted')" value="Submit">
+                  <input type="reset">
+                </div>
+              </div>
+
+            </div>
+          </form>
         </div>
       </div>
 
@@ -76,13 +103,13 @@
 
       <footer>
         <div class="pull-left">
-        <p>&copy; 2018 Easy Cook Meals Ltd.</p>
-      </div>
-      <div class="pull-right">
-        <img src="../images/facebook-square.svg" alt="">
-        <img src="../images/instagram.svg" alt="">
-        <img src="../images/twitter-square.svg" alt="">
-      </div>
+          <p>&copy; 2018 Easy Cook Meals Ltd.</p>
+        </div>
+        <div class="pull-right">
+          <img src="../images/facebook-square.svg" alt="">
+          <img src="../images/instagram.svg" alt="">
+          <img src="../images/twitter-square.svg" alt="">
+        </div>
       </footer>
     </div> <!-- /container -->
   </body>
