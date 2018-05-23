@@ -1,0 +1,17 @@
+.col-md-12 {
+  text-align: center;
+  border: 2px #080708 solid;
+  margin-top: 20px;
+}
+
+.col-md-5 {
+  text-align: center;
+  border: 2px #080708 solid;
+  margin-top: 20px;
+}
+
+.col-md-5 img {
+  width: 50%;
+  height: 300px;
+  margin-top: 10px;
+}
