@@ -1,0 +1,32 @@
+
+.col-md-12 {
+  text-align: center;
+  border: 2px #080708 solid;
+  margin-top: 20px;
+  font-size: 20px;
+  box-shadow: 4px 4px #9c9998;
+}
+
+.col-md-5 {
+  text-align: center;
+  border: 2px #080708 solid;
+  margin-top: 20px;
+  font-size: 18px;
+  box-shadow: 4px 4px #9c9998;
+}
+
+.col-md-5 img {
+  width: 50%;
+  margin-top: 10px;
+  box-shadow: 4px 4px #9c9998;
+  border: 2px #080708 solid;
+}
+
+@media screen and (max-width:770px) {
+  .col-md-12,
+  .col-md-5 {
+    border:none;
+    padding-bottom:20px;
+    box-shadow: none;
+  }
+}
