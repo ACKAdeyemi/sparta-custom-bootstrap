@@ -5,3 +5,7 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.pull-right img {
+  width: 25px;
+  margin-left: 20px;
+}
