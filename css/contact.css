@@ -19,7 +19,8 @@
   margin-top: 7px;
   margin-bottom: 40px;
 }
-.form-inputs input {
+.form-inputs input,
+.form-inputs textarea {
   width: 100%;
   margin-bottom: 40px;
   padding:5px;
@@ -27,8 +28,9 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-.message-textbox {
-  resize:both;
+textarea {
+  resize: vertical;
+  min-height: 35px;
 }
 .form-buttons input {
   padding:5px 15px;
