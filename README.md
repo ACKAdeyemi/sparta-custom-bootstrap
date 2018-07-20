@@ -1,5 +1,6 @@
 # <p align="center">Sparta Custom Bootstrap Project</p>
 <hr>
+
 #### Group Task (in pairs):
 
 To create a 3 page website using Bootstrap about a topic of our own choice.
