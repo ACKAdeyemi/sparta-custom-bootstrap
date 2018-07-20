@@ -1,15 +1,15 @@
-#<p align="center">Sparta Custom Bootstrap Project</p>
+# <p align="center">Sparta Custom Bootstrap Project</p>
 <hr>
-####Group Task (in pairs):
+#### Group Task (in pairs):
 To create a 3 page website using Bootstrap about a topic of our own choice.
 
-####It must have:
+#### It must have:
 * Consistency and must look 'stylish'
 * Wireframe and plan first, before coding
 * At least 3 Pages
 * Consistent Colour Scheme
 
-####Top Tips:
+#### Top Tips:
 
 * Can use coolors.co to create colour scheme
 * Agree on each page before doing ANY coding
@@ -19,7 +19,7 @@ To create a 3 page website using Bootstrap about a topic of our own choice.
 Presenting Tomorrow Morning - **24th May 9:30am**
 <hr>
 
-#<p align="center">Our Website - Easy Cook Meals</p>
+# <p align="center">Our Website - Easy Cook Meals</p>
 
 **Description** - This website presents easy cook meal solutions for people with a busy schedule/those without the time to cook a standard meal.
 
@@ -28,7 +28,7 @@ Presenting Tomorrow Morning - **24th May 9:30am**
 
 **How to Download** - click 'clone or download' button, download a zip of our project, unzip, open the index.html and enjoy.
 
-####Challenges:
+#### Challenges:
 * We got lucky that we were able to communicate face-2-face, comms remotely would have made confirmations and discussions more difficult, adding to time taken to complete the project.
 * We worked really well together as we discussed our ideas equally, listened to each other well, we planned effectively at beginning and we paid attention to the project scope and time
 * We could have tried to add more features to make things a bit more exciting – mainly the features that we discussed earlier
@@ -51,5 +51,5 @@ Code Snippet of our Message Box on our contact page:
 ```
 <hr>
 
-#<p align="center">index/Home page screenshot</p>
+# <p align="center">index/Home page screenshot</p>
 ![Screenshot of index/Home Page](images/screenshot-of-index-page.png)
