@@ -1,5 +1,4 @@
 # <p align="center">Sparta Custom Bootstrap Project</p>
-<hr>
 
 #### Group Task (in pairs):
 
